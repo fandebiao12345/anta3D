@@ -1,0 +1,142 @@
+body,p{ 
+	margin:0;
+}
+body,html{
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+#pageBg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url('../bg/bg.jpg') no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+}
+#view{
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	-webkit-perspective:300px;
+			perspective:300px;
+}
+#main,#clound,#pano,.pano,#start,#bg{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	-webkit-transform-style: preserve-3d;
+			 transform-style: preserve-3d;
+}
+#bg span{
+	position: absolute;
+	width: 129px;
+	height: 1170px;
+	top:50%;
+	left: 50%;
+	margin:-585px 0 0 -64.5px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+}
+
+
+.pano span{
+
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin-left: -64.5px;
+	width: 129px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+#clound span{
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	left:0;
+	top: 0;
+	margin:-50px 0 0 -100px;
+}
+.logo-image{
+	position: absolute;
+	left:35%;
+	top:50%;
+	width: 30%;
+	margin-top: -15%;
+	
+}
+.logo-image img{
+	width: 100%;
+	display: block;
+	-webkit-animation:rotateY 2s infinite linear;
+			animation:rotateY 2s infinite linear;
+}
+.logo-text{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	font-size: 16px;
+	text-align: center;
+}
+
+#logo4{
+	-webkit-transform-style:preserve-3d;
+			transform-style:preserve-3d;
+	position: absolute;
+	left:50%;
+	top:50%;
+	
+}
+#logo4Item{
+	-webkit-transform-style:preserve-3d;
+			transform-style:preserve-3d;
+	position: absolute;
+	left:50%;
+	top:50%;
+	-webkit-animation:rotateY 6s infinite linear;
+			animation:rotateY 6s infinite linear;
+}
+.icon{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	width: 30px;
+	height: 30px;
+	margin:-15px 0 0 -15px;
+	background: no-repeat center center;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+#logo4Text{
+	position: absolute;
+	width: 197px;
+	height: 70px;
+	left:50%;
+	top:50%;
+	margin:-35px 0 0 -98.5px;
+	background-size: contain;
+}
+
+
+
+@keyframes rotateY{
+	from{
+		transform:rotateY(0deg);
+	}
+	to{
+		transform:rotateY(360deg);
+	}
+}
+@-webkit-keyframes rotateY{
+	from{
+		-webkit-transform:rotateY(0deg);
+	}
+	to{
+		-webkit-transform:rotateY(360deg);
+	}
+}*/*/
